@@ -1,11 +1,12 @@
 import {View, TextInput, StyleSheet} from 'react-native';
 import {FontAwesome} from "@expo/vector-icons"
+import {elevation} from '../common/styles'  
 
 export default function Search() {
     return (
-        <View style={styles.container}>
+        <View style={[styles.container, styles.elevation]}>
             <FontAwesome name='search' size={25} /> 
-            <TextInput placeholder="Restaurants, food" />
+            <TextInput style={styles.input} placeholder="Restaurants, food" />
         </View>
     )
 }
@@ -16,12 +17,14 @@ const styles = StyleSheet.create({
         marginTop: 5,
         marginHorizontal: 25,
         backgroundColor: '#fff',
-        shadowColor: 'black',
-        shadowOffset: {width: 5, height: 5},
-        elevation: 3,
-        shadowOpacity: 0.1,
+        
         padding: 15,
         borderRadius: 40
     },
+    elevation,
+    input: {
+        fontSize: 20,
+        marginLeft: 10
+    }
     
 })
