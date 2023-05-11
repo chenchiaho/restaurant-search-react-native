@@ -21,13 +21,13 @@ export default () => {
     try {
       const response = await yelp.get('/search', {
         params: {
-          limited: 15,
+          limit: 15,
           term,
           location: "Toronto"
         }
       })
       setResults({
-        data: response.data.business,
+        data: response.data.businesses,
         loading: false,
         error: null
       })

@@ -39,7 +39,7 @@ export default function App() {
 
 
   return (
-    <View style={styles.container}>
+    <View >
       <Header />
       <Search setTerm={setTerm} />
 
@@ -56,4 +56,5 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+
 })
