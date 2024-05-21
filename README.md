@@ -4,5 +4,5 @@ This is a React Native App that integrate with Yelp Api to search for restaurant
 
 ## Screeshot
 
-<img src="Screenshot .png" alt="screenshot of the app" width="400"/>
+<img src="Screenshot.png" alt="screenshot of the app" width="400"/>
 
