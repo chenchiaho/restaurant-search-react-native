@@ -1,6 +1,6 @@
 # Restaurant Search
 
-This is a React Native App that integrate with Yelp Api to search for restaurants by categories
+This is a React Native app designed to integrate with the Yelp API, allowing users to search for restaurants by various categories.
 
 ## Screeshot
 
